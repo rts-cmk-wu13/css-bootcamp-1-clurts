@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Lexend+Giga:wght@100..900&display=swap');
+
+body {
+    background-color: orange;
+}
+
+html {
+    font-family: "Bitter", serif;
+}
+
+section p:last-child{
+    float: right;
+}
+
+h1 {
+    font-family: "Lexend Giga", serif;
+}
+main ul li:last-child {
+    background-color: teal;
+}
+
+main ul li {
+    margin-block-start: 4rem;
+}
+main ul li:nth-child(2) {
+    color: chartreuse
+}
